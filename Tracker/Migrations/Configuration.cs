@@ -70,7 +70,7 @@ namespace Tracker.Migrations
                 new Enrollment{ModuleInstanceID=2, StudentID=4},
                 new Enrollment{ModuleInstanceID=2, StudentID=5},
                 new Enrollment{ModuleInstanceID=2, StudentID=6},
-
+                //
             };
             enrolments.ForEach(e => context.Enrollments.AddOrUpdate(e));
             context.SaveChanges();
