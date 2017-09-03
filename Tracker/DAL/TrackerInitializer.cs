@@ -42,6 +42,7 @@ namespace Tracker.DAL
 
             moduleInstances.ForEach(m => context.ModuleInstances.Add(m));
             context.SaveChanges();
+            //
 
             var enrolments = new List<Enrollment>
             {
