@@ -10,6 +10,7 @@ namespace Tracker.DAL
 {
     public class TrackerContext : DbContext
     {
+        // test
         public TrackerContext() : base("TrackerContext") { }
 
         public DbSet<Student> Students { get; set; }
